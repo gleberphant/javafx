@@ -1,1 +1,15 @@
-.gradle
+# Arquivos de build
+build/
+out/
+
+# Cache do Gradle
+.gradle/
+**/.gradle/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Arquivos específicos da IDE
+.idea/
+*.iml

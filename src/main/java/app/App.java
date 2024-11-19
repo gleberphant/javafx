@@ -1,6 +1,9 @@
 package app;
 
+import com.sun.prism.paint.Color;
+
 import javafx.application.Application;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
@@ -10,16 +13,26 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
-        String javaVersion = System.getProperty("java.version");
-        String javafxVersion = System.getProperty("javafx.version");
-        Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-        Scene scene = new Scene(new StackPane(l), 640, 480);
-        stage.setScene(scene);
+    
+    
+        Label lbl01 = new Label("ola ");
+    
+        StackPane root = new StackPane();
+        
+        Scene scene01 = new Scene(root, 300, 300);
+    
+        stage.setScene(scene01);
+
+
+        root.getChildren().add(lbl01);
+    
         stage.show();
+        stage.requestFocus();
+
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 
 }
