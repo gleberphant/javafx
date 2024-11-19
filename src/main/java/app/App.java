@@ -1,7 +1,5 @@
 package app;
 
-import com.sun.prism.paint.Color;
-
 import javafx.application.Application;
 
 import javafx.scene.Scene;

@@ -1,11 +1,23 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-		{
-            "label": "GradleRun",
-            "type": "shell",
-            "command": "gradle run",
-            "group": "build"
+        {
+            "type": "gradle",
+            "id": "c:\\CODES_REPOSITORIOS\\java\\javafxrunjavafx",
+            "script": "run",
+            "description": "Runs this project as a JVM application",
+            "group": "application",
+            "project": "javafx",
+            "buildFile": "C:\\CODES_REPOSITORIOS\\java\\javafx\\build.gradle",
+            "rootProject": "javafx",
+            "projectFolder": "c:\\CODES_REPOSITORIOS\\java\\javafx",
+            "workspaceFolder": "c:\\CODES_REPOSITORIOS\\java\\javafx",
+            "args": "",
+            "javaDebug": false,
+            "problemMatcher": [
+                "$gradle"
+            ],
+            "label": "gradle: run"
         }
-	]
+    ]
 }

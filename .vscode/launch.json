@@ -4,18 +4,16 @@
         {
             "type": "java",
             "name": "App",
-            "preLaunchTask": "GradleRun",
             "request": "launch",
-            "mainClass": "",
+            "mainClass": "app.App",
             "projectName": "javafx"
-            
         },
         {
             "type": "java",
             "name": "Gradle Run",
             "request": "launch",
             "mainClass": "",
-            "preLaunchTask": "GradleRun"
+            "preLaunchTask": "gradle: run"
         }
     ]
 }
