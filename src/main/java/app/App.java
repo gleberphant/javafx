@@ -3,7 +3,7 @@ package app;
 import com.sun.prism.paint.Color;
 
 import javafx.application.Application;
-import javafx.scene.Node;
+
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
